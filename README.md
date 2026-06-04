@@ -43,11 +43,11 @@ The vision system was developed using **Python** and **OpenCV** to detect target
 Mathematical modeling was applied to ensure the end-effector (camera/gripper) reaches exact X, Y, Z coordinates. The system relies on rigid **Forward and Inverse Kinematics** calculations.
 * **Homing & Calibration:** Below is the initialization sequence where the arm calibrates its joints to the designated Home and Start positions.
 
-![Homing Pose 1](Media/Media/home1.gif)
+![Homing Pose 1](Media/home1.gif)
 
-![Homing Pose 2](Media/Media/home2.gif)
+![Homing Pose 2](Media/home2.gif)
 
-![Homing Pose 3](Media/Media/home3.gif)
+![Homing Pose 3](Media/home3.gif)
 
 ## Known Limitations & Bottleneck Analysis
 During system integration, the following engineering challenges were identified:
