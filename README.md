@@ -5,14 +5,14 @@
 ![Hardware](https://img.shields.io/badge/Hardware-Arduino_UNO%20%7C%203D_Printed-orange.svg)
 ![Math](https://img.shields.io/badge/Calculations-Kinematics-blue.svg)
 
-![Arm Tracking Target](media/Follow_1.gif)
+![Arm Tracking Target](Media/Follow_1.gif)
 
 A comprehensive mechatronics project that integrates mechanical design, kinematic calculations, and an AI-driven machine vision system. The **R4 Robotic Arm** was fully 3D-printed and programmed to autonomously track marker lines and interact with specific target objects (Tennis and Ping-Pong balls) using real-time object detection.
 
 > **📝 Project Note:** This is a legacy academic project. The original Python source code has been lost over time. Therefore, this repository serves as a **Hardware & System Architecture Portfolio**, showcasing the CAD models, kinematic mathematics, structural assembly, and system logic.
 
 ## 🎯 Project Overview
-![Robotic Arm Static View](media/Overview_arm.png)
+![Robotic Arm Static View](Media/Overview_arm.png)
 
 The objective of this project was to design a robotic arm capable of identifying and differentiating between a Ping-Pong ball (40mm) and a Tennis ball (64mm), and interacting with them. The system bridges the gap between high-level image processing (Computer Vision) and low-level motor control.
 
@@ -21,8 +21,8 @@ The entire structure of the R4 Robotic Arm was custom-designed using **SolidWork
 * **Design to Reality:** Below is the comparison between the CAD model rendering and the actual 3D-printed assembly.
 
 <p align="center">
-  <img src="media/Print_sim1.png" width="45%" title="CAD Software View">
-  <img src="media/Print_sim3.png" width="45%" title="Physical 3D Printed View">
+  <img src="Media/Print_sim1.png" width="45%" title="CAD Software View">
+  <img src="Media/Print_sim3.png" width="45%" title="Physical 3D Printed View">
 </p>
 
 ## ⚡ Electrical & Wiring Architecture
@@ -30,23 +30,23 @@ The control system relies on an **Arduino UNO** interfacing with **TB6600 Micros
 * To ensure electrical safety and effective heat dissipation, a custom 3D-printed enclosure was designed specifically to house the microsteppers, cooling fans, and the 12V 20A Power Supply.
 
 <p align="center">
-  <img src="media/Storage.png" width="45%" title="Microstepper Enclosure">
-  <img src="media/Diagram.png" width="45%" title="Circuit & Wiring Diagram">
+  <img src="Media/Storage.png" width="45%" title="Microstepper Enclosure">
+  <img src="Media/Diagram.png" width="45%" title="Circuit & Wiring Diagram">
 </p>
 
 ## 👁️ Machine Vision & AI Integration
 The vision system was developed using **Python** and **OpenCV** to detect target objects and a black marker line (20x1.5 cm) for navigation.
 * **Roboflow Integration:** Used for advanced object classification to confidently differentiate between the spherical shapes of Ping-Pong and Tennis balls.
 
-![Ball Detection in Action](media/Detect.gif)
+![Ball Detection in Action](Media/Detect.gif)
 
 ## 📐 Kinematics & Homing Sequence
 Mathematical modeling was applied to ensure the end-effector (camera/gripper) reaches exact X, Y, Z coordinates. The system relies on rigid **Forward and Inverse Kinematics** calculations.
 * **Homing & Calibration:** Below is the initialization sequence where the arm calibrates its joints to the designated Home and Start positions.
 
 <p align="center">
-  <img src="media/home1.gif" width="45%" title="Homing Pose 1">
-  <img src="media/home1.gif" width="45%" title="Homing Pose 2">
+  <img src="Media/home1.gif" width="45%" title="Homing Pose 1">
+  <img src="Media/home1.gif" width="45%" title="Homing Pose 2">
 </p>
 
 ## ⚠️ Known Limitations & Bottleneck Analysis
@@ -57,6 +57,6 @@ During system integration, the following engineering challenges were identified:
 
 ## 📂 Repository Structure & Resources
 * 📁 **`/Calculations`**: Contains the PDF report detailing mathematical proofs, Forward/Inverse Kinematics, and motor torque calculations.
-* 📁 **`/media`**: Demonstration GIFs and system architecture images.
+* 📁 **`/Media`**: Demonstration GIFs and system architecture images.
 * 🛠️ **CAD & 3D Models (SolidWorks)**: 🔗 **[Download from Google Drive](ใส่ลิงก์_Google_Drive_ของคุณที่นี่)** *(Note: Hosted externally due to large assembly file sizes)*
 * 🎥 **Full Demonstration Video**: 🔗 **[Watch on YouTube / Google Drive](ใส่ลิงก์วิดีโอตัวเต็มที่นี่)**
