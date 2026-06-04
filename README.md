@@ -29,10 +29,9 @@ The entire structure of the R4 Robotic Arm was custom-designed using **SolidWork
 The control system relies on an **Arduino UNO** interfacing with **TB6600 Microstepper Motor Drivers** to deliver precise joint movements. 
 * To ensure electrical safety and effective heat dissipation, a custom 3D-printed enclosure was designed specifically to house the microsteppers, cooling fans, and the 12V 20A Power Supply.
 
-<p align="center">
-  <img src="Media/Storage.png" width="45%" title="Microstepper Enclosure">
-  <img src="Media/Diagram.png" width="45%" title="Circuit & Wiring Diagram">
-</p>
+![Microstepper Enclosure](Media/Storage.png)
+
+![Circuit & Wiring Diagram](Media/Diagram.png)
 
 ## 👁️ Machine Vision & AI Integration
 The vision system was developed using **Python** and **OpenCV** to detect target objects and a black marker line (20x1.5 cm) for navigation.
@@ -58,5 +57,5 @@ During system integration, the following engineering challenges were identified:
 ## 📂 Repository Structure & Resources
 * 📁 **`/Calculations`**: Contains the PDF report detailing mathematical proofs, Forward/Inverse Kinematics, and motor torque calculations.
 * 📁 **`/Media`**: Demonstration GIFs and system architecture images.
-* 🛠️ **CAD & 3D Models (SolidWorks)**: 🔗 **[Download from Google Drive](ใส่ลิงก์_Google_Drive_ของคุณที่นี่)** *(Note: Hosted externally due to large assembly file sizes)*
-* 🎥 **Full Demonstration Video**: 🔗 **[Watch on YouTube / Google Drive](ใส่ลิงก์วิดีโอตัวเต็มที่นี่)**
+* 🛠️ **CAD & 3D Models (SolidWorks)**: 🔗 **[Download from Google Drive](https://drive.google.com/drive/folders/1M2cmV3samh9nUpj8-SmQx6YoAdvOQSRs?usp=sharing)** *(Note: Hosted externally due to large assembly file sizes)*
+* 🎥 **Full Demonstration Video**: 🔗 **[Watch on YouTube](https://youtu.be/AqJGE4pfKxM)**
