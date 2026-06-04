@@ -39,7 +39,7 @@ The vision system was developed using **Python** and **OpenCV** to detect target
 
 ![Ball Detection in Action](Media/Detect.gif)
 
-## 📐 Kinematics & Homing Sequence
+## Kinematics & Homing Sequence
 Mathematical modeling was applied to ensure the end-effector (camera/gripper) reaches exact X, Y, Z coordinates. The system relies on rigid **Forward and Inverse Kinematics** calculations.
 * **Homing & Calibration:** Below is the initialization sequence where the arm calibrates its joints to the designated Home and Start positions.
 
